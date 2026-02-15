@@ -27,12 +27,15 @@
         "--talk-name=org.kde.kuiserver"
     ],
     "cleanup": [
+        "/docs",
+        "/include",
         "/lib/cmake",
         "/lib/pkgconfig",
-        "/include",
-        "/docs",
+        "/man",
         "/mkspecs",
+        "/share/doc",
         "/share/man",
+        "/share/qlogging-categories6",
         "*.a",
         "*.la"
     ],
